@@ -72,6 +72,7 @@ nav li a{
     text-align: center;
     font-size: 30px;
     padding-top: 150px;
+    color: #181818;
 }
 .about-content p{
     color: #757575;
@@ -107,4 +108,29 @@ nav li a{
 }
 .skill p{
     color:#757575;
+}
+.resume-container{
+    display: flex;
+    column-gap: 100px;
+    padding: 0 150px;
+    padding-top: 50px;
+}
+.education,.experience{
+    border-bottom: 1px solid #7c7c7c;
+}
+.education h2,.experience h2{
+    color: #474747;
+    font-size: 25px;
+}
+.education p,.experience p{
+    color: #757575;
+}
+.education h3,.experience h3{
+    color: #474747;
+}
+.cv-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
 }
