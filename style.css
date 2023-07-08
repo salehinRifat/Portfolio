@@ -67,3 +67,44 @@ nav li a{
     margin-bottom: -7px;
     margin-right: 60px;
 }
+.titles{
+    font-weight: 700;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 150px;
+}
+.about-content p{
+    color: #757575;
+    text-align: center;
+    padding: 20px 200px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-info{
+    margin-right: 50px;
+}
+.about-info-container span{
+    color: #474747;
+}
+.skills-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 140px;
+}
+.skill{
+    padding: 10px;
+    margin-right: 40px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.2);
+}
+.skill h4{
+    color: #181818;
+    font-weight: 700;
+}
+.skill p{
+    color:#757575;
+}
