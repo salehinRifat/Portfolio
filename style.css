@@ -134,3 +134,44 @@ nav li a{
     align-items: center;
     margin-top: 40px;
 }
+.footer-container{
+    padding: 90px 130px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #FFF8F3;
+    margin-top: 30px;
+}
+.social-section{
+    width: 50%;
+}
+.social-section p{
+    font-size: 15px;
+}
+.social-section ul{
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+    padding-left: 0;
+    margin-left: -8px;
+}
+.social-section li{
+    margin-right: 10px;
+    cursor: pointer;
+
+}
+.social-section li img{
+    width: 20px;
+}
+input[type="text"], input[type="email"]{
+    width: 250px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+input[type="text"], input[type="email"],input[type="submit"]{
+    border: none;
+}
+textarea{
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+}
